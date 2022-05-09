@@ -9,243 +9,481 @@
   <link rel="stylesheet" href="css.css">
 
 </head>
+<!--
+<script>
+  window.alert("Nhấn để theo dõi the coffee house");
+</script>
+-->
 
 <body>
-  <div class="container">
-    <!--Header-->
-    <header>
-      <div class="container">
-        <div class="row7">
-          <div class="column5">
-            <img src="../Demo/image/icon/vector_706a88566eab4f009bed6eea93cd890b.png">
-            <a href="" id="a1"> 146 Cửa
-              hàng khắp cả nước</a>
-          </div>
-          <div class="column5">
-            <a href="" id="a1">
-              <img src="https://file.hstatic.net/1000075078/file/group_8de276faa50c486b9d485826c506803b.png">&nbsp; Đặt
-              hàng:
-              1800.6936</a>
-          </div>
-          <div class="column5">
-            <a href="" id="a1">
-              <img src="../Demo/image/icon/vector_c337310f409d440f890b370ff9cefe44.png">&nbsp; Freeship
-              từ 50.000vnd</a></td>
-          </div>
-        </div>
-      </div>
-    </header>
+  <table>
+    <tr>
+      <a href="" id="a1">
+        <td><img src="../Demo/image/icon/vector_706a88566eab4f009bed6eea93cd890b.png">
+        </td>
+      </a>
+      <td> <a href="" id="a1">146 Cửa
+          hàng khắp cả nước</a>&ensp;&ensp;&ensp;&ensp;</td>
+      <td>
+
+        <a href="" id="a1">
+      <td><img src="https://file.hstatic.net/1000075078/file/group_8de276faa50c486b9d485826c506803b.png">
+      </td>
+      </a>
+      <td> <a href="" id="a1">Đặt
+          hàng:
+          1800.6936</a>&ensp;&ensp;&ensp;&ensp;</td>
+      <td>
+
+        <a href="" id="a1">
+      <td><img src="../Demo/image/icon/vector_c337310f409d440f890b370ff9cefe44.png">
+      </td>
+      </a>
+      <td> <a href="" id="a1">Freeship
+          từ 50.000vnd</a></td>
+
+    </tr>
+  </table>
+  <!--Header-->
+  <header>
     <!--Navi-->
-    <ul>
-      <li id="li-a">
-        <a href="../Demo/index.html">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" width="263px" height="33px" viewBox="0 0 263 33" enable-background="new 0 0 263 33"
-            xml:space="preserve">
-            <image id="image0" width="263" height="33" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQcAAAAhCAAAAADxQjHkAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-       AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZ
-       cwAAEnQAABJ0Ad5mH3gAAAAHdElNRQfmAxcKBDTO6POuAAADwklEQVRo3u2Y3ZGrOBCFv9naPNwT
-       ieVILEcCRAKOBDkS2pFoHyQECGF7ipraW3U5L9D66T4cq1uSvzwHgH/+bwJ/CA4dAg4dAg4dAv4t
-       NSpI9qZTr5RmKGbR0KmR0sAiZs6Rgv2SGeBUpEhrBjfRKbr33ntvJKH3HhDvvffeAoP3vpp7bH2G
-       PkggdogNQ2gw0a4m72IG721mz50bv7anQIANESaOI7lIaxCRKrIQidNbAYj85j/Y6MMHHZZfmeTx
-       AvTvdJg6I4E2NVRJzYR+SYRMB/FrO6FNwgyJ45C8Bdn7whgzCxY+KmF0vb8+fDfpVZsa0FtqaNxu
-       9+9wSyFctzGkS0MuuuUm1IfqiToQQ5bmM8jYsxxxUUDkzMOB1MANwJ4eqnDrZZweHxu2ic8TZXsL
-       tQPMmbtCY8rkb4BcH6qos0v3E9ZrbiMvrC+hJ80bRNJy7L33vRCSyLJMJhMHpNwkrtgN+1VeMDKT
-       2LfOi7GW2DhUsvDee++L+8UPcANMH37aAYBuXDvm2sDD7gzwGgrQArQXcMUxjrD6KuC65WivDhoD
-       THimcKZZ7lG/pIOEYJtjBHAqSPvC0ZYO3ynMCBfK39nOh7k1hXMXtAid59h6fyxnN/fMDo9KNuwp
-       4nf+jaqyUCSHEYVvc54faGL4mfuN+jAh2zdllbFZ4ejHSQOEnXOmnMk2cLvetRd2tYo2w1gWqiE6
-       LdeHiX2bit7K/c68UFZL34jCxZyfHXED+U1cG2geYb/IEjShHlfXTTfpbOkg03e+ghTG9BcF54BY
-       wtZuE05v+nOb/Jxf36dg1mywrE2jCtBYKfh6pUOo/fNctKUyI4z5OWu73keWbWJW2WXg2JPsIfvi
-       3E4Im5MmZn06G5ntOmhMVKyr46xcsp15IQBNRqC24ZBnqilafun6/BL2jsFQB9lbu8WvAyPUzw4e
-       W2726lA10J1qAG3CE6RXdbI+s/0O6trNghnAORM+HwgbnfTy+mj6uQ4a/crip7R3heZuzmgDz5aU
-       rdoBYj/07uJzPL3n9htW4WEFEIVLK/roCAcZA2hz1YZpG3eau//4XJ3QLvayYUGryrdd/+G5esRP
-       75t2xWzBdcg2ysH/1n1T5hXN1nvd7Uc9EyLc8tJdr3AsG7H/3i19ld5a4N0fQwUPb+yfCjF+txn/
-       IGpjQ1VvTvpKq7BL2eJ09oaNnQl25USdPk/p0jvmHkSP6paTkteNCSsHCWuO6krMnHtyntfpeUPR
-       /Vd2iv5bcfxfHXDoEHDoEHDoEHDoEHDoEHDoEPAf9PyFWdHdeF4AAAAldEVYdGRhdGU6Y3JlYXRl
-       ADIwMjItMDMtMjNUMDc6MDQ6NTIrMDM6MDDFPBtvAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAz
-       LTIzVDA3OjA0OjUyKzAzOjAwtGGj0wAAAABJRU5ErkJggg==" />
-          </svg></a>
-      </li>
-      <li><a href="#caphe"><b>Cà phê</b></a></li>
-      <li><a href="#Tra"><b>Trà</b></a></li>
-      <li>
-        <a href="#menu"><b>Menu</b>
-          <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black" fill-opacity="0.6">
-            </path>
-          </svg></a>
-      </li>
-      <li>
-        <a href="#chuyenha"><b>Chuyện nhà</b>
-          <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black" fill-opacity="0.6">
-            </path>
-          </svg></a>
-      </li>
-
-      <li><a href="#cuahang"><b>Cửa hàng</b></a></li>
-      <li><a href="#khaitruongnhamoi"><b>Khai trương nhà mới</b></a></li>
-      <li><a href="#cuahang"><b>Tuyển dụng</b></a></li>
-    </ul>
-    <!--Main-->
-    <main>
-      <!--List hình ảnh đầu trang-->
-      <div class="meta-list">
-        <img class="mySlides"
-          src="https://file.hstatic.net/1000075078/file/web_khai_truong_ch_moi_tch_7a26b41ef6a64a6f925b3db6c4996b1a.jpeg">
-        <img class="mySlides"
-          src="https://file.hstatic.net/1000075078/file/web_moi-desktop_ef667e94e5d8443ca6f1011b851d118d.jpeg">
-        <img class="mySlides"
-          src="https://file.hstatic.net/1000075078/file/home_banner_-_web_moi_desktop_7e17c9b7c9544165a8bd8962c66a3766.jpeg">
-      </div>
-      <script>
-        var myIndex = 100;
-        carousel();
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) { myIndex = 1 }
-          x[myIndex - 1].style.display = "block";
-
-          setTimeout(carousel, 5000); // 5s
-        }
-      </script>
-      <!--Hình ảnh sản phẩm-->
-
-      <div class="row8">
-        <h1> Trà tại nhà</h1>
-      </div>
-      <div class="row">
-        <div class="column">
-          <a href=""><img
-              src="../Demo/image/tra/combo-3-hop-tra-dao-tui-loc-tearoma1_9db99464a0d14cc791b858d21ab33c22_large.jpg"
-              style="width:100%; border-radius: 25px;"></a>
-          <a href=""><b> Combo 3 hộp trà đào túi lọc teamoma</b></a>
-          <p>45.000 đ</p>
-          <del> 50.000 đ</del>
+    <div class="container">
+      <div class="header_nav">
+        <div class="header_logo">
+          <a href="../Demo/index.html">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" width="263px" height="33px" viewBox="0 0 263 33" enable-background="new 0 0 263 33"
+              xml:space="preserve">
+              <defs>
+                <style>
+                  a {
+                    fill: #000;
+                  }
+                </style>
+              </defs>
+              <path class="a"
+                d="M11.8,4.864c0,.266-.228.455-.569.455H7.97V20.234c0,.228-.19.455-.569.455H4.364a.521.521,0,0,1-.569-.455V5.319H.569C.228,5.319,0,5.129,0,4.864V2.093A.547.547,0,0,1,.569,1.6H11.2a.523.523,0,0,1,.569.493v2.77Z"
+                transform="translate(0 -0.993)"></path>
+              <path class="a"
+                d="M52.056,1.2a.548.548,0,0,1,.569.455V19.948a.548.548,0,0,1-.569.455H48.982a.549.549,0,0,1-.569-.455V12.623H42.075v7.324a.548.548,0,0,1-.569.455H38.469a.549.549,0,0,1-.569-.455V1.655a.519.519,0,0,1,.569-.455h3.036a.521.521,0,0,1,.569.455V8.676H48.45V1.655A.519.519,0,0,1,49.02,1.2Z"
+                transform="translate(-23.517 -0.745)"></path>
+              <path class="a"
+                d="M92.575,5.109V8.9h6.983c.38,0,.569.228.569.455v2.922c0,.228-.19.455-.569.455H92.575v3.757h8.463c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455H88.969a.549.549,0,0,1-.569-.455V1.655c0-.266.228-.455.569-.455h12.106c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455h-8.5Z"
+                transform="translate(-54.852 -0.745)"></path>
+              <path class="a"
+                d="M169.786,14.494a.689.689,0,0,1,.759,0l2.125,2.125a.577.577,0,0,1,0,.759,9.672,9.672,0,0,1-6.793,2.732,9.429,9.429,0,0,1-9.677-9.829C156.2,4.513,160.185.3,165.877.3a9.865,9.865,0,0,1,6.831,2.77.7.7,0,0,1-.038.721l-2.125,2.125a.689.689,0,0,1-.759,0,5.651,5.651,0,0,0-3.909-1.67c-3.378,0-5.427,2.657-5.427,6.034,0,3.605,2.429,5.806,5.427,5.806a5.417,5.417,0,0,0,3.909-1.594"
+                transform="translate(-96.921 -0.186)"></path>
+              <path class="a"
+                d="M211.588,7.324a3.207,3.207,0,1,0,6.414,0,3.207,3.207,0,1,0-6.414,0M221.418,19.2a.562.562,0,0,1-.607.455H208.628a.521.521,0,0,1-.569-.455V16.129a.523.523,0,0,1,.569-.493H220.81a.561.561,0,0,1,.607.493ZM207.3,7.324a7.459,7.459,0,0,1,14.915,0,7.46,7.46,0,0,1-14.915,0"
+                transform="translate(-128.628)"></path>
+              <path class="a"
+                d="M260.475,5.585V9.152h6.983c.379,0,.569.228.569.455v3c0,.228-.19.455-.569.455h-6.983v7.1c0,.228-.19.455-.569.455h-3.036a.549.549,0,0,1-.569-.455V2.093a.523.523,0,0,1,.569-.493h12.106a.561.561,0,0,1,.607.493v3a.56.56,0,0,1-.607.493Z"
+                transform="translate(-159.032 -0.993)"></path>
+              <path class="a"
+                d="M303.475,5.585V9.152h6.983c.379,0,.569.228.569.455v3c0,.228-.19.455-.569.455h-6.983v7.1c0,.228-.19.455-.569.455h-3.036a.549.549,0,0,1-.569-.455V2.093a.523.523,0,0,1,.569-.493h12.106a.561.561,0,0,1,.607.493v3a.56.56,0,0,1-.607.493Z"
+                transform="translate(-185.714 -0.993)"></path>
+              <path class="a"
+                d="M346.413,5.109V8.9H353.4c.38,0,.569.228.569.455v2.922c0,.228-.19.455-.569.455h-6.983v3.757h8.463c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455H342.769a.549.549,0,0,1-.569-.455V1.655c0-.266.228-.455.569-.455h12.106c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455h-8.463Z"
+                transform="translate(-212.333 -0.745)"></path>
+              <path class="a"
+                d="M390.013,5.109V8.9H397c.379,0,.569.228.569.455v2.922c0,.228-.19.455-.569.455h-6.983v3.757h8.463c.379,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455H386.369a.549.549,0,0,1-.569-.455V1.655c0-.266.228-.455.569-.455h12.106c.379,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455h-8.463Z"
+                transform="translate(-239.386 -0.745)"></path>
+              <path class="a"
+                d="M469.594,1.2a.548.548,0,0,1,.569.455V19.948a.548.548,0,0,1-.569.455H466.52a.549.549,0,0,1-.569-.455V12.623h-6.376v7.324a.548.548,0,0,1-.569.455h-3.036a.549.549,0,0,1-.569-.455V1.655a.519.519,0,0,1,.569-.455h3.036a.521.521,0,0,1,.569.455V8.676h6.376V1.655a.519.519,0,0,1,.569-.455Z"
+                transform="translate(-282.573 -0.745)"></path>
+              <path class="a"
+                d="M508.55,7.324a3.207,3.207,0,1,0,6.414,0,3.207,3.207,0,1,0-6.414,0M518.38,19.2a.562.562,0,0,1-.607.455H505.59a.521.521,0,0,1-.569-.455V16.129a.523.523,0,0,1,.569-.493h12.182a.561.561,0,0,1,.607.493ZM504.3,7.324a7.459,7.459,0,0,1,14.915,0,7.46,7.46,0,0,1-14.915,0"
+                transform="translate(-312.915)"></path>
+              <path class="a"
+                d="M553.3,14.389V2.093a.547.547,0,0,1,.569-.493h3.036a.548.548,0,0,1,.569.493V14.351a3.117,3.117,0,0,0,3.188,2.619c1.594,0,3.15-.835,3.15-2.543V2.093a.547.547,0,0,1,.569-.493h3.074a.577.577,0,0,1,.569.493v12.3c0,4.137-3.188,6.565-7.362,6.565-4.061,0-7.362-2.543-7.362-6.565"
+                transform="translate(-343.319 -0.993)"></path>
+              <path class="a"
+                d="M602,14.566c0-.266.228-.455.569-.455h3.036c.266,0,.569.152.569.455a1.847,1.847,0,0,0,2.049,1.784,1.88,1.88,0,0,0,2.049-1.822,2.233,2.233,0,0,0-2.049-2.049,7.543,7.543,0,0,1-2.96-.645A5.557,5.557,0,0,1,602,6.6a5.994,5.994,0,0,1,6.262-6c3.416,0,6.11,2.315,6.186,5.655a.519.519,0,0,1-.569.455h-3a.548.548,0,0,1-.569-.455A1.823,1.823,0,0,0,608.3,4.547,1.911,1.911,0,0,0,606.25,6.6,2.007,2.007,0,0,0,608.3,8.608a7.411,7.411,0,0,1,2.922.645,5.621,5.621,0,0,1,3.3,5.275c0,3.8-3.036,5.844-6.224,5.844-3.529-.114-6.262-2.125-6.3-5.806"
+                transform="translate(-373.537 -0.372)"></path>
+              <path class="a"
+                d="M648.212,5.109V8.9H655.2c.38,0,.569.228.569.455v2.922c0,.228-.19.455-.569.455h-6.983v3.757h8.463c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455H644.569A.549.549,0,0,1,644,19.91V1.655c0-.266.228-.455.569-.455h12.106c.38,0,.607.228.607.455v2.96a.562.562,0,0,1-.607.455h-8.463Z"
+                transform="translate(-399.598 -0.745)"></path>
+            </svg>
+          </a>
         </div>
-        <div class="column">
-          <a href=""><img
-              src="../Demo/image/tra/combo-3-hop-tra-lai-tui-loc-tearoma1_b09e7c68925e4a61997e9078d448b6f9_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Combo 3 hộp trà lài túi lọc tearoma</b></a>
-          <p>58.000 đ</p>
-        </div>
-        <div class="column">
-          <a href="">
-            <img
-              src="../Demo/image/tra/combo-3-hop-tra-oolong-tui-loc-tearoma1_ecb5fe591f534cfd83eb37b988bea076_large.jpg"
-              style="width:100%; border-radius: 25px;">
-          </a><a href=""><b>Combo 3 hộp trà olong tui lọc tearoma</b></a>
-          <p>58.000 đ</p>
-        </div>
-        <div class="column">
-          <a href="">
-            <img src="../Demo/image/tra/combo-3-hop-tra-sen-tui-loc-tearoma1_ab99e22473f045acadaaf2ffd5b700fd_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Combo 3 hộp trà Sen túi lọc tearoma</b></a>
-          <p>49.000 đ</p>
-          <del> 50.000 đ</del>
-
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/giftset-tra-tearoma_5bb77a734c2447839a593f18ef27730b_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà teamora</b></a>
-          <p>58.000 đ</p>
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-lai-la-tearoma_25bef8ca40a2489cacccf5ffea2db75c_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà lài lá tearoma</b></a>
-          <p>54.000 đ</p>
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-lai-tui-loc-tearoma_40bb74e6f61d40a4b9d25e60d8ef48e5_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà lài túi lọc tearoma</b></a>
-          <p>58.000 đ</p>
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-oolong-la-tearoma_192a4d551aec4a1aa3df42f922c45b68_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà olong lá tearoma</b></a>
-          <p>49.000 đ</p> <del> 50.000 đ</del>
-
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-oolong-tui-loc-tearoma_25eb1abe370f496da4f3818529d9db19_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà olong túi lọc tearoma</b></a>
-          <p>49.000 đ</p>
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-sen-la-tearoma_c7bf3d1ec9ff4bab8be9398c6dc34b0e_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà sen lá tearoma</b></a>
-          <p>49.000 đ</p> <del> 50.000 đ</del>
-
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-sen-tui-loc-tearoma_e2c0c29d6e7a4933b983f0758a7aa752_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà sen túi lọc tearoma</b></a>
-          <p>49.000 đ</p>
-        </div>
-        <div class="column"><a href="">
-            <img src="../Demo/image/tra/tra-xanh-la-tearoma_1c34305d05ea400396a35410b6057bc1_large.jpg"
-              style="width:100%; border-radius: 25px;"></a><a href=""><b>Trà xanh lá tearoma</b></a>
-          <p>49.000 đ</p>
-        </div>
-      </div>
-
-    </main>
-    <!--Footer-->
-    <footer>
-      <div class="container">
-        <div class="row1">
-          <div class="column">
-            <div class="a-1">
-              Giới thiệu<p></p>
-            </div>
-            <a href="" id="a2">Về chúng tôi</a>
-            <p></p>
-            <a href="" id="a2">Sản phẩm</a>
-            <p></p>
-            <a href="" id="a2">Khuyến mãi</a>
-            <p></p>
-            <a href="" id="a2">Chuyện cà phê</a>
-            <p></p>
-            <a href="" id="a2">Cửa hàng</a>
-            <p></p>
-            <a href="" id="a2">Tuyển dụng</a>
-            <p></p>
+        <div class="header_menu">
+          <div class="close-btn-wrap">
+            <a href="" class="closemenu-mobile">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.00023 5.58599L11.9502 0.635986L13.3642 2.04999L8.41423 6.99999L13.3642 11.95L11.9502 13.364L7.00023 8.41399L2.05023 13.364L0.63623 11.95L5.58623 6.99999L0.63623 2.04999L2.05023 0.635986L7.00023 5.58599Z"
+                  fill="black" fill-opacity="0.85"></path>
+              </svg>
+            </a>
           </div>
-          <div class="column">
-            <div class="a-1">
-              Điều khoản</div>
-            <p></p>
-            <a href="" id="a2">Điều khoản sử dụng</a>
-            <p></p>
-            <a href="" id="a2">Quy tắc bảo mật</a>
-            <p></p>
-          </div>
-          <div class="column">
-            <div class="a-1"><img src="../Demo/image/icon/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png"> &nbsp;
-              Đặt
-              hàng: 18006936</div>
-            <div class="a-1">
-              <img src="../Demo/image/icon/phone_0a42df1c753c4fa0910108daa73fe2ef.png"> &nbsp; Liên hệ
-            </div>
-            <div class="a-2">Tầng 3-4 Hub Building<br>195/10E Điện Biên Phủ, P.15,<br>Q.Bình Thạnh, TP.Hồ Chí Minh</div>
-          </div>
-          <div class="column">
-            <div class="a-1">
-              Điều khoản<br></div>
-            <p></p>
-            <a href="" id="a2">Điều khoản sử dụng</a>
-            <p></p>
-          </div>
-
+          <ul class="clearfix">
+            <li>
+              <a href="../Demo/test.html" title="Cà phê">Cà phê</a>
+            </li>
+            <li>
+              <a href="../Demo/tra.html" title="Trà">Trà</a>
+            </li>
+            <li class="has_child ">
+              <a href="" title="Menu">
+                Menu
+                <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black" fill-opacity="0.6">
+                  </path>
+                </svg>
+              </a>
+              <ul class="menu_child" id="menu_child_3_3">
+                <li class="lv2_title">
+                  <a href="" title="Tất cả">Tất cả</a>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Cà Phê">Cà Phê</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Cà Phê Việt Nam">
+                        Cà Phê Việt Nam
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Cà Phê Máy">
+                        Cà Phê Máy
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Cold Brew">
+                        Cold Brew
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Trà">Trà</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Trà trái cây">
+                        Trà trái cây
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Trà sữa Macchiato">
+                        Trà sữa Macchiato
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Món khác">Món khác</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Đá xay">
+                        Đá xay
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Matcha - Sô cô la">
+                        Matcha - Sô cô la
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Bánh &amp; Snack">Bánh &amp; Snack</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Bánh mặn">
+                        Bánh mặn
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Bánh ngọt">
+                        Bánh ngọt
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Snack">
+                        Snack
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Tại nhà">Tại nhà</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Cà phê tại nhà">
+                        Cà phê tại nhà
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Trà tại nhà">
+                        Trà tại nhà
+                      </a>
+                    </li>
+                    <li class="lv3_title" main-menu-new-menu="" a_="">
+                      <a href="" title="Bộ sưu tập quà tặng">
+                        Bộ sưu tập quà tặng
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has_child">
+              <a href="" title="Chuyện Nhà">
+                Chuyện Nhà
+                <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black" fill-opacity="0.6">
+                  </path>
+                </svg>
+              </a>
+              <ul class="menu_child" id="menu_child_5_5">
+                <li class="lv2_title">
+                  <a href="" title="Coffeeholic">Coffeeholic</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title">
+                      <a href="&amp;h=chuyencaphe" title="Chuyện Cà Phê">
+                        #chuyencaphe
+                      </a>
+                    </li>
+                    <li class="lv3_title">
+                      <a href="&amp;h=phacaphe" title="Pha Cà Phê">
+                        #phacaphe
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Teaholic">Teaholic</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title">
+                      <a href="&amp;h=cauchuyenvetra" title="Câu chuyện về trà">
+                        #cauchuyenvetra
+                      </a>
+                    </li>
+                    <li class="lv3_title">
+                      <a href="&amp;h=phatra" title="Pha Trà">
+                        #phatra
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="lv2_title">
+                  <a href="" title="Blog">Blog</a>
+                  <ul class="menu_child_lv3">
+                    <li class="lv3_title">
+                      <a href="" title="In The Mood">
+                        #inthemood
+                      </a>
+                    </li>
+                    <li class="lv3_title">
+                      <a href="" title="Review">
+                        #Review
+                      </a>
+                    </li>
+                    <li class="lv3_title">
+                      <a href="" title="Human of TCH">
+                        #HumanofTCH
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" title="Cửa hàng">Cửa hàng</a>
+            </li>
+            <li>
+              <a href="" title="Khai trương Nhà mới">Khai trương Nhà
+                mới</a>
+            </li>
+            <li>
+              <a href="" title="Tuyển dụng" target="blank">Tuyển dụng</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
+    </div>
+  </header>
+  <div class="container">
+
+    <!--List hình ảnh đầu trang-->
+    <div class="meta-list">
+      <img class="mySlides"
+        src="https://file.hstatic.net/1000075078/file/web_khai_truong_ch_moi_tch_7a26b41ef6a64a6f925b3db6c4996b1a.jpeg">
+      <img class="mySlides"
+        src="https://file.hstatic.net/1000075078/file/web_moi-desktop_ef667e94e5d8443ca6f1011b851d118d.jpeg">
+      <img class="mySlides"
+        src="https://file.hstatic.net/1000075078/file/home_banner_-_web_moi_desktop_7e17c9b7c9544165a8bd8962c66a3766.jpeg">
+    </div>
+    <script src="javascript.js"></script>
   </div>
+
+  <!--Main-->
+  <main>
+    <!--Hình ảnh sản phẩm-->
+    <div class="row8">
+      <h1> Trà tại nhà</h1>
+    </div>
+    <div class="row">
+      <div class="column">
+        <a href=""><img
+            src="../Demo/image/tra/combo-3-hop-tra-dao-tui-loc-tearoma1_9db99464a0d14cc791b858d21ab33c22_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b> Combo 3 hộp trà đào túi lọc teamoma</b></a>
+        <p>45.000 đ</p>
+        <del> 50.000 đ</del>
+      </div>
+      <div class="column">
+        <a href=""><img
+            src="../Demo/image/tra/combo-3-hop-tra-lai-tui-loc-tearoma1_b09e7c68925e4a61997e9078d448b6f9_large.jpg"
+            style="width:100%; border-radius: 25px;"></a><a href="" class="text4"><b>Combo 3 hộp trà lài túi lọc
+            tearoma</b></a>
+        <p>58.000 đ</p>
+      </div>
+      <div class="column">
+        <a href="">
+          <img
+            src="../Demo/image/tra/combo-3-hop-tra-oolong-tui-loc-tearoma1_ecb5fe591f534cfd83eb37b988bea076_large.jpg"
+            style="width:100%; border-radius: 25px;">
+        </a><a href="" class="text4"><b>Combo 3 hộp trà olong tui lọc tearoma</b></a>
+        <p>58.000 đ</p>
+      </div>
+      <div class="column">
+        <a href="">
+          <img src="../Demo/image/tra/combo-3-hop-tra-sen-tui-loc-tearoma1_ab99e22473f045acadaaf2ffd5b700fd_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Combo 3 hộp trà Sen túi lọc tearoma</b></a>
+        <p>49.000 đ</p>
+        <del> 50.000 đ</del>
+
+      </div>
+      <div class="column">
+        <img class="imgdemo"
+          src="https://file.hstatic.net/1000075078/file/label_moi_6bc6fa8b361848c99da6cc0655223773.svg" alt="">
+        <a href="">
+          <img src="../Demo/image/tra/giftset-tra-tearoma_5bb77a734c2447839a593f18ef27730b_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà Tearoma</b></a>
+        <p>58.000 đ</p>
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-lai-la-tearoma_25bef8ca40a2489cacccf5ffea2db75c_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà lài lá tearoma</b></a>
+        <p>54.000 đ</p>
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-lai-tui-loc-tearoma_40bb74e6f61d40a4b9d25e60d8ef48e5_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà lài túi lọc tearoma</b></a>
+        <p>58.000 đ</p>
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-oolong-la-tearoma_192a4d551aec4a1aa3df42f922c45b68_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà olong lá tearoma</b></a>
+        <p>49.000 đ</p> <del> 50.000 đ</del>
+
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-oolong-tui-loc-tearoma_25eb1abe370f496da4f3818529d9db19_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà olong túi lọc tearoma</b></a>
+        <p>49.000 đ</p>
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-sen-la-tearoma_c7bf3d1ec9ff4bab8be9398c6dc34b0e_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà sen lá tearoma</b></a>
+        <p>49.000 đ</p> <del> 50.000 đ</del>
+
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-sen-tui-loc-tearoma_e2c0c29d6e7a4933b983f0758a7aa752_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà sen túi lọc tearoma</b></a>
+        <p>49.000 đ</p>
+      </div>
+      <div class="column"><a href="">
+          <img src="../Demo/image/tra/tra-xanh-la-tearoma_1c34305d05ea400396a35410b6057bc1_large.jpg"
+            style="width:100%; border-radius: 25px;"></a>
+        <a href="" class="text4"><b>Trà xanh lá tearoma</b></a>
+        <p>49.000 đ</p>
+      </div>
+    </div>
+  </main>
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row1">
+        <div class="column">
+          <div class="a-1">
+            Giới thiệu<p></p>
+          </div>
+          <a href="" id="a2">Về chúng tôi</a>
+          <p></p>
+          <a href="" id="a2">Sản phẩm</a>
+          <p></p>
+          <a href="" id="a2">Khuyến mãi</a>
+          <p></p>
+          <a href="" id="a2">Chuyện cà phê</a>
+          <p></p>
+          <a href="" id="a2">Cửa hàng</a>
+          <p></p>
+          <a href="" id="a2">Tuyển dụng</a>
+          <p></p>
+        </div>
+        <div class="column">
+          <div class="a-1">
+            Điều khoản</div>
+          <p></p>
+          <a href="" id="a2">Điều khoản sử dụng</a>
+          <p></p>
+          <a href="" id="a2">Quy tắc bảo mật</a>
+          <p></p>
+        </div>
+        <div class="column">
+          <div class="a-1"><img src="../Demo/image/icon/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png"> &nbsp;
+            Đặt
+            hàng: 18006936</div>
+          <div class="a-1">
+            <img src="../Demo/image/icon/phone_0a42df1c753c4fa0910108daa73fe2ef.png"> &nbsp; Liên hệ
+          </div>
+          <div class="a-2">Tầng 3-4 Hub Building<br>195/10E Điện Biên Phủ, P.15,<br>Q.Bình Thạnh, TP.Hồ Chí Minh</div>
+        </div>
+        <div class="column">
+          <div class="tch_page">
+            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/The.Coffee.House.2014/"
+              data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+              data-show-facepile="true" fb-xfbml-state="rendered"
+              fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
+              <span style="vertical-align: bottom; width: 270px; height: 130px;"><iframe name="f23b1fc34b73e6c"
+                  width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin"
+                  title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                  scrolling="no" allow="encrypted-media"
+                  src="https://www.facebook.com/v2.0/plugins/page.php?adapt_container_width=true&amp;app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3a3bf9b363deb8%26domain%3Dthecoffeehouse.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthecoffeehouse.com%252Ff205b81607c973c%26relation%3Dparent.parent&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"
+                  style="border: none; visibility: visible; width: 270px; height: 130px;" class=""></iframe></span>
+            </div>
+          </div>
+          <ul class="tch_social_links">
+            <li>
+              <a href="https://www.facebook.com/The.Coffee.House.2014/">
+                <img src="https://file.hstatic.net/1000075078/file/test_fd4e30831d14438f9d0f1fcf255dfadb.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/thecoffeehousevn/">
+                <img src="https://file.hstatic.net/1000075078/file/test_db37bb3840ac45f3a0a3cf7aa8a57d9e.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <a title="09999999" href="" id="fixed-hotline-support">
+    <img src="../Demo/image/icon/customer-service-line_2x_e5acb85c9abd40a2a95f2bf1f7253f05.png">
+  </a>
 </body>
 
 </html>
